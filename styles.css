@@ -1,3 +1,44 @@
 body{
-    background-color: gray;
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+}
+
+#searchBox {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#searchField {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+#sult{
+    border-bottom: grey 1px solid;
+    padding: 10px;
+}
+
+button{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
 }
